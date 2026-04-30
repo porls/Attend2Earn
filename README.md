@@ -42,6 +42,25 @@ It aims to:
 - **Language:** Rust  
 - **Contract Type:** Attendance + Reward Distribution Contract  
 - **Contract ID:** CC6KOVXCFWTZNPONG7WA4FAJSYTRCMXCVDYX5EL6XZCRVUOFCJDFBEAZ
+- **s
+
+---
+
+### 📸 Contract on Explorer
+![Contract Screenshot](https://raw.githubusercontent.com/porls/Attend2Earn/main/Screenshot%202026-04-30%20171942.png)
+
+---
+
+## 🔮 Future Scope
+
+Planned improvements for Attend2Earn include:
+
+- 📱 Mobile app for students and guardians
+- 🧾 Integration with real school attendance systems
+- 🔐 Biometric or NFC-based attendance verification
+- 🌐 Deployment on Stellar mainnet
+- 📊 Dashboard for analytics and reporting
+- 🪙 Support for custom tokens instead of XLM
 
 ### 🔧 Build Contract
 ```bash
