@@ -1,22 +1,48 @@
-# Soroban Project
+# Attend2Earn
 
-## Project Structure
+Attendance-based allowance system using Stellar Soroban.
 
-This repository uses the recommended structure for a Soroban project:
+---
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## 📌 Project Description
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+Attend2Earn is a blockchain-based attendance incentive system built on the Stellar Soroban smart contract platform. It links student allowance to verified attendance recorded on-chain.
+
+Instead of giving unconditional allowance, funds are locked in a smart contract and released only when attendance is confirmed. This improves accountability, discipline, and transparency in educational environments.
+
+---
+
+## 🎯 Project Vision
+
+The vision of Attend2Earn is to connect real-world behavior with financial incentives using blockchain technology.
+
+It aims to:
+- Improve student discipline through transparent attendance tracking
+- Automate allowance distribution without manual intervention
+- Encourage consistency and responsibility in education systems
+- Demonstrate real-world use of smart contracts in daily life
+
+---
+
+## ✨ Key Features
+
+- Blockchain-based attendance tracking
+- Smart contract-controlled allowance distribution
+- XLM and Soroban integration
+- Secure and transparent reward system
+- Simulation-ready QR attendance system (backend)
+- Modular design for future expansion
+
+---
+
+## 🚀 Deployed Contract Details
+
+- **Network:** Stellar Soroban Testnet  
+- **Platform:** Soroban Smart Contracts  
+- **Language:** Rust  
+- **Contract Type:** Attendance + Reward Distribution Contract  
+- **Contract ID:** CC6KOVXCFWTZNPONG7WA4FAJSYTRCMXCVDYX5EL6XZCRVUOFCJDFBEAZ
+
+### 🔧 Build Contract
+```bash
+soroban contract build
